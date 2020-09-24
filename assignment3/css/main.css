@@ -1,0 +1,29 @@
+body {
+    background: black;
+    height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.posts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.post {
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 3em;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+/*
+font-family: 'Ranchers;
+font-family: 'Amatic SC;
+*/
+
+#post-text3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 300%;
+    padding-bottom: 0.5em;
+}
+
+#post-info3 {
+    font-family: 'Ranchers', cursive;
+    color: gray;
+}
+
+#post-author3 {
+    color: black;
+}

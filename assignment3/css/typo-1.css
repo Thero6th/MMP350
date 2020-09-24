@@ -1,0 +1,26 @@
+/*
+	font pairing 1
+	font-family: 'Fira, sans-sarif, '
+	font-family: 'Raleway, sans sarif'
+*/
+
+#post-text1 {
+	font-size: 3.25em;
+	font-family: 'raleway', sans-serif;
+	word-spacing: 1px;
+	line-height: 1.25em;
+}
+
+#post-info1 {
+    font-family: 'Fira Sans', sans-serif;
+	font-size: 1em;
+	color: gray;
+}
+
+#post-author1 {
+	color: black;
+}
+
+#post-date1 {
+    color: gray;
+}
