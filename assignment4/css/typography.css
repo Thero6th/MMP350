@@ -1,0 +1,28 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+
+#heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+}
+
+.post-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300%;
+}
+
+.post-info {
+    font-family: 'Pacifico', cursive;
+}
+
+#post-body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+}
+
+#submit-post {
+    font-family: 'Ranchers', cursive;
+    font-size: 12px;
+}
