@@ -1,0 +1,39 @@
+body {
+	background: gray;
+	height:100%;
+}
+
+#container {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 100px;
+	background-color: white;
+}
+
+.post {
+	background-color: lightgray;
+	padding: 20px;
+    margin: 20px;
+}
+
+#write-post {
+	margin-top: -10px;
+    margin-left: 10px;
+}
+
+#post-body{
+	width: 70%;
+}
+
+#submit-post {
+    background-color: lightgray;
+    width:15%;
+}
+
+#heading{
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: lightgray;
+    width:340px;
+    font-size: 10px;
+}

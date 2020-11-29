@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCHMDz83TX2eZ_fl4Dy1cfPmmsZVKveoPM",
+            authDomain: "mmp350-e3cec.firebaseapp.com",
+            databaseURL: "https://mmp350-e3cec.firebaseio.com",
+            projectId: "mmp350-e3cec",
+            storageBucket: "mmp350-e3cec.appspot.com",
+            messagingSenderId: "854601202276",
+            appId: "1:854601202276:web:27001828f940b56ed87d71",
+            measurementId: "G-K0W9FN208E"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+
+<body>
+	<div id="container">
+
+		<div id="heading">
+			<h1>Publishing a Post to a Database Example</h1>
+			<h4>MMP 350 Fall 2020</h4>
+		</div>
+
+		<!-- elements to let users login -->
+		<div id="login">
+        	<input type="text" id="login-email" placeholder="Email">
+        	<input type="password" id="login-password" placeholder="Password">
+        	<button id="login-button">Login</button>
+        	<p id="login-message"></p>
+            <p><a href="create.html">Create a new account</a>.</p>
+        </div>
+
+        <!-- elements in case user is logged in -->
+        <div id="user-info">
+        	Hello
+        	<div id ="user-name"></div>
+        	<button id="logout-button">Log Out</button>
+        </div>
+
+		<!-- elements to let users write a new post -->
+		<div id="write-post">
+			<div>
+				<textarea id="post-body" placeholder="What's on your mind?"></textarea></div>
+			<div>
+				<button id="submit-post">Publish</button>
+			</div>
+		</div>
+
+		<!-- elements to show the posts -->
+		<div id="posts">
+			<div class="post">
+			</div>
+		</div>
+
+	</div> <!-- end of container -->
+
+	<!-- Scripts -->
+	<script src="js/helpers.js"></script>
+	<script src="js/publish.js"></script>
+	<script src="js/auth.js"></script>
+	<script src="js/displayPosts.js"></script>
+
+	<script>
+		fb.loadPosts();
+	</script>
+</body></html>
